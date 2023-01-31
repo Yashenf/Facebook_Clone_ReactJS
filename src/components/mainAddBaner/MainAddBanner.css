@@ -1,0 +1,54 @@
+.main-add-banner{
+    width: 100%;
+    height: auto;
+    margin-top: 12px;
+    box-shadow: 2px 7px 15px 2px rgba(0,0,0,0.48);
+-webkit-box-shadow: 2px 7px 15px 2px rgba(0,0,0,0.48);
+-moz-box-shadow: 2px 7px 15px 2px rgba(0,0,0,0.48);
+}
+.sponserd-text{
+    display: flex;
+    
+}
+.sponserd-text>span{
+    color: gray;
+    text-align: left;
+    margin-left: 10px;
+    font-size: 24px;
+    font-family: 'PT Sans', sans-serif;
+    
+}
+
+.main-img{
+    width: 100%;
+    height: auto;
+    display: flex;
+
+}
+
+.img-desc-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-desc{
+    text-align: justify;
+    padding: 50px 20px 20px 20px;
+    color: #95afc0;
+}
+
+.main-img-container{
+    width: 80%;
+    height: auto;
+}
+
+.add-info{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+}
+
+.desc-link{
+    text-decoration: underline
+}

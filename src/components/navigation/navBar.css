@@ -1,0 +1,115 @@
+/* -----------------------start left------------------------------- */
+.nav-bar{
+    height: 50px;
+    width: 100%;
+    background-color: #3b5998;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top:0;
+}
+
+.nav-bar-left{
+    flex: 3;
+}
+.logo{
+    font-size: 32px;
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    margin-left: 10px;
+    cursor: pointer;
+}
+/* -----------------------end left------------------------------- */
+
+
+/* -----------------------start center------------------------------- */
+.nav-bar-center{
+    flex:5;
+    width: 90%;
+    height: 30px;
+    background-color: white;
+    border-radius: 35px;
+    display: flex;
+    align-items: flex;
+}
+.search-icon{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.search-input{
+    width: 80%;
+    border: none;
+    margin-left: 20px;
+    outline: none;
+}
+.search-input:hover{
+    outline: none;
+}
+/* -----------------------end center------------------------------- */
+
+
+/* -----------------------start right------------------------------- */
+.nav-bar-right{
+    flex: 4;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-bar-profile-pic{
+    
+}
+.nav-bar-links{
+    margin-left: 20px;
+    width: 30%;
+    justify-content: space-around;
+    color: white;
+}
+.nav-bar-link{
+    margin-left: 10px;
+}
+.nav-bar-link:hover{
+    cursor: pointer;
+    color: #f6e58d;
+}
+.nav-bar-icons:hover{
+    cursor: pointer;
+}
+.nav-bar-icons{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+.nav-bar-profile-pic>img{
+    width: 36px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 50px;
+}
+.nav-bar-profile-pic:hover{
+    cursor: pointer;
+}
+.nav-bar-icon{
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-tag-background{
+    width: 15px;
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+.icon-tag-background>span{
+    
+}
+.icon-tag-background>span:hover{
+    cursor: pointer;
+}
+.icon-tag{
+    border-radius: 50%;
+}
+/* -----------------------end right------------------------------- */
